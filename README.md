@@ -32,8 +32,8 @@ VaaniPay is an advanced voice-enabled banking assistant that enables seamless, m
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd test-agent
+git clone https://github.com/poojareddy13/vaanipay.git
+cd vaanipay
 
 # Set up backend
 cd voice-agent
@@ -86,27 +86,21 @@ pnpm dev
 ## Project Structure
 
 ```
-test-agent/
+vaanipay/
 ├── voice-agent/                     # Backend voice agent
 │   ├── src/
 │   │   ├── agent.py                 # Main voice agent logic
 │   │   └── banking_api.py           # Banking API client
 │   ├── mock_banking_api.py          # Mock banking service
+│   ├── MOCK_API_README.md           # Banking API documentation
 │   ├── .env.example                 # Backend environment template
 │   └── README.md                    # Backend documentation
 │
-├── frontend/                        # Next.js frontend
-│   ├── app/                         # Next.js app directory
-│   ├── components/                  # React components
-│   ├── .env.example                 # Frontend environment template
-│   └── README.md                    # Frontend documentation
-│
-└── Documentation/
-    ├── README.md                                        # This file
-    ├── VaaniPay_Project_Technical_Documentation.md     # Technical deep-dive
-    ├── VaaniPay.md                                     # Detailed prototype writeup
-    ├── DEMO_SCRIPT.md                                  # Demo presentation guide
-    └── COMPLETE_TEST_REPORT.md                         # Testing documentation
+└── frontend/                        # Next.js frontend
+    ├── app/                         # Next.js app directory
+    ├── components/                  # React components
+    ├── .env.example                 # Frontend environment template
+    └── README.md                    # Frontend documentation
 ```
 
 ## Architecture
@@ -160,9 +154,7 @@ The mock banking API includes 4 test users:
 ## Documentation
 
 - **[Technical Documentation](VaaniPay_Project_Technical_Documentation.md)**: Complete technical architecture and implementation details
-- **[Prototype Writeup](VaaniPay.md)**: Detailed explanation of working prototype and real-world applications (~2000 words)
-- **[Demo Script](DEMO_SCRIPT.md)**: Step-by-step guide for showcasing all capabilities
-- **[Test Report](COMPLETE_TEST_REPORT.md)**: Comprehensive testing documentation
+- **[Prototype Writeup](VaaniPay.md)**: Detailed explanation of working prototype and real-world applications
 - **[Backend README](voice-agent/README.md)**: Agent development guide
 - **[Frontend README](frontend/README.md)**: Frontend development guide
 - **[Mock API Guide](voice-agent/MOCK_API_README.md)**: Banking API documentation
@@ -230,3 +222,4 @@ This is a prototype project. For production use:
 
 ---
 
+**VaaniPay** - Voice Banking for Everyone 🇮🇳
