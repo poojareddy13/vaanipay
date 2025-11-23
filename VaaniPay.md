@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-VaaniPay is an advanced voice-enabled banking assistant that revolutionizes digital banking accessibility through natural language interaction in 10 Indian languages. Built on a modern microservices architecture, the system leverages cutting-edge AI technologies including Google Gemini 2.5 Flash for intelligent conversation understanding and Sarvam AI for multilingual speech processing. The prototype demonstrates a production-ready solution that addresses critical barriers in digital banking adoption, particularly for non-English speaking users and those less familiar with complex mobile applications.
+VaaniPay is an advanced voice-enabled banking assistant that revolutionizes digital banking accessibility through natural language interaction in 11 Indian languages. Built on a modern microservices architecture, the system leverages cutting-edge AI technologies including Google Gemini 2.5 Flash for intelligent conversation understanding and Sarvam AI for multilingual speech processing. The prototype demonstrates a production-ready solution that addresses critical barriers in digital banking adoption, particularly for non-English speaking users and those less familiar with complex mobile applications.
 
 This document provides a comprehensive overview of the working prototype, its technical architecture, implementation details, and real-world applications. The system has been fully implemented and tested, demonstrating all core banking operations including balance inquiries, money transfers, bill payments, loan information, and transaction history through voice commands.
 
@@ -155,7 +155,7 @@ The system uses Silero VAD (Voice Activity Detection) and LiveKit's Turn Detecto
 
 ### 4.1 Multilingual Banking Operations
 
-VaaniPay supports comprehensive banking operations in 10 Indian languages:
+VaaniPay supports comprehensive banking operations in 11 Indian languages:
 
 **Balance Inquiries:** Users can check balances for specific accounts or view all accounts. The system automatically detects the user from account numbers and provides personalized information.
 
@@ -220,7 +220,7 @@ VaaniPay addresses critical financial inclusion challenges:
 
 **Cost Reduction:** Voice banking reduces the need for physical branches and human customer service agents for routine operations, significantly reducing operational costs while maintaining service quality.
 
-**Market Expansion:** By supporting 10 Indian languages, banks can expand their market reach to previously underserved demographics, particularly in non-urban areas.
+**Market Expansion:** By supporting 11 Indian languages, banks can expand their market reach to previously underserved demographics, particularly in non-urban areas.
 
 **Competitive Differentiation:** Banks offering comprehensive multilingual voice banking gain a significant competitive advantage in the Indian market, where language diversity is a critical factor.
 
@@ -410,7 +410,7 @@ As digital banking continues to evolve, voice interfaces will play an increasing
 - **Frontend:** Next.js 15, React 19, TypeScript, Tailwind CSS
 - **Backend:** Python 3.13, LiveKit Agents SDK, FastAPI
 - **AI Models:** Google Gemini 2.5 Flash (LLM), Sarvam AI Saarika v2.5 (STT), Sarvam AI Bulbul v2 (TTS)
-- **Languages Supported:** 10 (English, Hindi, Bengali, Tamil, Telugu, Gujarati, Kannada, Malayalam, Marathi, Punjabi)
+- **Languages Supported:** 11 (English, Hindi, Bengali, Tamil, Telugu, Gujarati, Kannada, Malayalam, Marathi, Punjabi, Odia)
 - **Response Time:** <500ms average
 - **API Endpoints:** 12 RESTful endpoints
 - **Security:** PIN verification, transaction confirmation, WebRTC encryption
