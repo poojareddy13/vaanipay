@@ -6,6 +6,11 @@
 [![Sarvam AI](https://img.shields.io/badge/Sarvam-AI-orange)](https://sarvam.ai/)
 [![Gemini](https://img.shields.io/badge/Google-Gemini-yellow)](https://ai.google.dev/)
 
+<div align="center">
+  <img src=".github/assets/vaanipay-landing.png" alt="VaaniPay Landing Page" width="45%">
+  <img src=".github/assets/vaanipay-chat.png" alt="VaaniPay Chat Interface" width="45%">
+</div>
+
 VaaniPay is an advanced voice-enabled banking assistant that enables seamless, multilingual banking operations through natural conversation in 11 Indian languages. Built with LiveKit Agents, it provides secure, hands-free banking experiences for Indian users.
 
 ## Features
